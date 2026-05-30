@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - VJ Agro Farms</title>
+    <meta name="description" content="Explore our range of 100% pure, Cold-pressed oils. Groundnut, Coconut, and Sesame oils extracted using traditional methods.">
+    <meta property="og:title" content="Products - VJ Agro Farms">
+    <meta property="og:description" content="Explore our range of 100% pure, Cold-pressed oils.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navbar -->
+        <header class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-v">V</span><span class="logo-j">J</span>
+                        <span class="logo-text"> AGRO FARMS</span>
+                    </a>
+                </div>
+                
+                <nav class="nav-links" id="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+                <div class="menu-icon" id="menu-icon">
+                    <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                    <svg id="icon-close" style="display:none;" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="products-page">
+                <div class="page-header">
+                    <div class="container">
+                        <h1>Our Pure Oils</h1>
+                        <p>Explore our range of 100% pure, Cold-pressed oils.</p>
+                    </div>
+                </div>
+
+                <div class="container" style="padding: 60px 20px;">
+                    <div class="filters text-center animate-fade-in" id="product-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="groundnut">Groundnut</button>
+                        <button class="filter-btn" data-filter="coconut">Coconut</button>
+                        <button class="filter-btn" data-filter="sesame">Sesame</button>
+                    </div>
+
+                    <div class="products-grid animate-fade-in delay-100" id="products-grid">
+                        
+                        <!-- Groundnut Oil -->
+                        <div class="product-card" data-type="groundnut">
+                            <div class="product-image">
+                                <img src="assets/images/groundnut_oil_1777668895783.png" alt="Cold Pressed Groundnut Oil" />
+                            </div>
+                            <div class="product-content">
+                                <h3>Cold Pressed Groundnut Oil</h3>
+                                <p class="product-price">₹350 / 1 Litre</p>
+                                <p class="product-description">Extracted using German Technology methods. Rich in flavor, nutrients, and antioxidants. Perfect for everyday cooking and deep frying.</p>
+                                <button class="btn btn-primary w-full order-whatsapp-btn" data-product="Cold Pressed Groundnut Oil">
+                                    Order on WhatsApp
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Coconut Oil -->
+                        <div class="product-card" data-type="coconut">
+                            <div class="product-image">
+                                <img src="assets/images/coconut_oil_1777668916815.png" alt="Cold Pressed Coconut Oil" />
+                            </div>
+                            <div class="product-content">
+                                <h3>Cold Pressed Coconut Oil</h3>
+                                <p class="product-price">₹800 / 1 Litre</p>
+                                <p class="product-description">100% pure, unrefined, and unbleached. Ideal for hair, skin, and healthy cooking. Experience the true aroma of fresh coconuts.</p>
+                                <button class="btn btn-primary w-full order-whatsapp-btn" data-product="Cold Pressed Coconut Oil">
+                                    Order on WhatsApp
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sesame Oil -->
+                        <div class="product-card" data-type="sesame">
+                            <div class="product-image">
+                                <img src="assets/images/sesame_oil_1777668930258.png" alt="Cold Pressed Sesame Oil" />
+                            </div>
+                            <div class="product-content">
+                                <h3>Cold Pressed Sesame Oil</h3>
+                                <p class="product-price">₹490 / 1 Litre</p>
+                                <p class="product-description">A nutrient powerhouse. Known for its distinct nutty flavor, it's excellent for cooking, body massage, and traditional remedies.</p>
+                                <button class="btn btn-primary w-full order-whatsapp-btn" data-product="Cold Pressed Sesame Oil">
+                                    Order on WhatsApp
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-card" data-type="sesame">
+                            <div class="product-image">
+                                <img src="assets/images/sunflower.png" alt="Cold Pressed Sesame Oil" />
+                            </div>
+                            <div class="product-content">
+                                <h3>SunFlower Oil</h3>
+                                <p class="product-price">₹470 / 1 Litre</p>
+                                <p class="product-description">A nutrient powerhouse. Known for its distinct nutty flavor, it's excellent for cooking, body massage, and traditional remedies.</p>
+                                <button class="btn btn-primary w-full order-whatsapp-btn" data-product="Cold Pressed Sesame Oil">
+                                    Order on WhatsApp
+
+                                   
+                                </button>
+                            </div>
+
+                            
+                            </div>
+
+                            <div class="product-card" data-type="safflower">
+                            <div class="product-image">
+                                <img src="assets/images/Safflower.png" alt="Cold Pressed Sesame Oil" />
+                            </div>
+                            <div class="product-content">
+                                <h3>SafFlower Oil</h3>
+                                <p class="product-price">₹450 / 1 Litre</p>
+                                <p class="product-description">A nutrient powerhouse. Known for its distinct nutty flavor, it's excellent for cooking, body massage, and traditional remedies.</p>
+                                <button class="btn btn-primary w-full order-whatsapp-btn" data-product="Cold Pressed Sesame Oil">
+                                    Order on WhatsApp
+
+                                   
+                                </button>
+                            </div>
+
+                            
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-section">
+                    <h3>VJ AGRO FARMS</h3>
+                    <p>COLD PRESSED OILS<br/>With German Technology</p>
+                    <p class="telugu-tagline">మీ ఆరోగ్యం - మీ చేతిలో</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li style="display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                            +91 98765 43210
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            info@vjagrofarms.com
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Hyderabad, Telangana, India
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> VJ Agro Farms. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- WhatsApp Floating Button -->
+        <button class="whatsapp-floating-btn" id="whatsapp-btn" aria-label="Chat on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        </button>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
